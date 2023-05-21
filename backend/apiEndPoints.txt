@@ -1,0 +1,32 @@
+// employee routes
+
+1. Add employee
+route: /api/employee/add
+method: POST
+payload : {
+    "name": "test",
+    "departments": "Backend, Frontend",
+    "salary": 50000
+}
+
+
+2. Get all employee
+route: /api/employee
+method: GET
+
+
+
+3. update employee
+route: /api/employee/update
+method: patch
+payload : {
+    "name": "test10",
+    "departments": "Backends, ui , Frontend",
+    "salary": 50000,
+    "id": "6467cb3af43543ddc4e4e8e5"
+}
+
+
+4. Delete employee by id
+route: /api/employee/remove/:id
+method: DELETE
